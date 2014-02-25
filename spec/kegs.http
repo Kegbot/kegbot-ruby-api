@@ -1,0 +1,144 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Thu, 27 Feb 2014 00:24:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "objects": [
+    {
+      "volume_ml_remain": 21796.9, 
+      "type_id": "4", 
+      "url": "/kegs/4", 
+      "spilled_ml": 0.0, 
+      "start_time": "2014-01-31T23:11:42+00:00", 
+      "percent_full": 37.149226487416044, 
+      "size_id": 0, 
+      "size_name": "half-barrel", 
+      "end_time": "2014-01-31T23:11:42+00:00", 
+      "online": true, 
+      "type": {
+        "name": "Drake's 1500", 
+        "style_id": "0", 
+        "image": {
+          "url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/0d8521a4eef37663218db5aef284089e.jpg", 
+          "thumbnail_url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/1c3f0a2375704ebe62a82aec658b5287.jpg", 
+          "original_url": "/media/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90.e", 
+          "time": "2014-01-31T23:10:53+00:00"
+        }, 
+        "abv": 0.0, 
+        "brewer_id": "3", 
+        "id": "4"
+      }, 
+      "id": 4, 
+      "size_volume_ml": 58673.9, 
+      "size": {
+        "volume_ml": 58673.9, 
+        "id": 0, 
+        "name": "half-barrel"
+      }
+    }, 
+    {
+      "volume_ml_remain": 21005.9, 
+      "type_id": "1", 
+      "url": "/kegs/3", 
+      "spilled_ml": 0.0, 
+      "start_time": "2014-01-31T23:11:38+00:00", 
+      "percent_full": 35.80109725107757, 
+      "size_id": 0, 
+      "size_name": "half-barrel", 
+      "end_time": "2014-01-31T23:11:38+00:00", 
+      "online": true, 
+      "type": {
+        "name": "Anchor Steam", 
+        "style_id": "0", 
+        "image": {
+          "url": "/media/CACHE/images/pics/20140131231053-a36a6b7cd54d461c97c63339c6762bf0/c7a226b5122af9ea4c3b9d72cdc4c46d.jpg", 
+          "thumbnail_url": "/media/CACHE/images/pics/20140131231053-a36a6b7cd54d461c97c63339c6762bf0/704675543d5b73232c8a51f16435ea9d.jpg", 
+          "original_url": "/media/pics/20140131231053-a36a6b7cd54d461c97c63339c6762bf0.e", 
+          "time": "2014-01-31T23:10:53+00:00"
+        }, 
+        "abv": 0.0, 
+        "brewer_id": "1", 
+        "id": "1"
+      }, 
+      "id": 3, 
+      "size_volume_ml": 58673.9, 
+      "size": {
+        "volume_ml": 58673.9, 
+        "id": 0, 
+        "name": "half-barrel"
+      }
+    }, 
+    {
+      "volume_ml_remain": 173.90000000000146, 
+      "type_id": "4", 
+      "url": "/kegs/2", 
+      "spilled_ml": 0.0, 
+      "start_time": "2013-12-18T20:49:00+00:00", 
+      "percent_full": 0.29638391175633705, 
+      "size_id": 0, 
+      "size_name": "half-barrel", 
+      "end_time": "2014-01-31T23:10:53+00:00", 
+      "online": false, 
+      "type": {
+        "name": "Drake's 1500", 
+        "style_id": "0", 
+        "image": {
+          "url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/0d8521a4eef37663218db5aef284089e.jpg", 
+          "thumbnail_url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/1c3f0a2375704ebe62a82aec658b5287.jpg", 
+          "original_url": "/media/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90.e", 
+          "time": "2014-01-31T23:10:53+00:00"
+        }, 
+        "abv": 0.0, 
+        "brewer_id": "3", 
+        "id": "4"
+      }, 
+      "id": 2, 
+      "size_volume_ml": 58673.9, 
+      "size": {
+        "volume_ml": 58673.9, 
+        "id": 0, 
+        "name": "half-barrel"
+      }
+    }, 
+    {
+      "volume_ml_remain": 80.90000000000146, 
+      "type_id": "3", 
+      "url": "/kegs/1", 
+      "spilled_ml": 0.0, 
+      "start_time": "2013-12-18T20:10:00+00:00", 
+      "percent_full": 0.13788072720579586, 
+      "size_id": 0, 
+      "size_name": "half-barrel", 
+      "end_time": "2014-01-31T23:10:53+00:00", 
+      "online": false, 
+      "type": {
+        "name": "Drake's Blonde", 
+        "style_id": "0", 
+        "image": {
+          "url": "/media/CACHE/images/pics/20140131231053-5b277158667f4f34a63b6a4d627fbc02/50783fc343a86611edcea5ff3e196f8f.jpg", 
+          "thumbnail_url": "/media/CACHE/images/pics/20140131231053-5b277158667f4f34a63b6a4d627fbc02/da13742b4a6747654131b79ac261a3ef.jpg", 
+          "original_url": "/media/pics/20140131231053-5b277158667f4f34a63b6a4d627fbc02.e", 
+          "time": "2014-01-31T23:10:53+00:00"
+        }, 
+        "abv": 0.0, 
+        "brewer_id": "3", 
+        "id": "3"
+      }, 
+      "id": 1, 
+      "size_volume_ml": 58673.9, 
+      "size": {
+        "volume_ml": 58673.9, 
+        "id": 0, 
+        "name": "half-barrel"
+      }
+    }
+  ], 
+  "meta": {
+    "result": "ok"
+  }
+}

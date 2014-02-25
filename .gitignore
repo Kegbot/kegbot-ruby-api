@@ -1,5 +1,8 @@
 *~
 
+# /temp* files used for prototyping + hacks.  usually temp.rb
+/temp*
+
 # Default GEM .gitignore
 
 *.gem

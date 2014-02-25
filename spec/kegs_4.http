@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Thu, 27 Feb 2014 00:32:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "object": {
+    "volume_ml_remain": 21796.9, 
+    "type_id": "4", 
+    "url": "/kegs/4", 
+    "spilled_ml": 0.0, 
+    "start_time": "2014-01-31T23:11:42+00:00", 
+    "percent_full": 37.149226487416044, 
+    "id": 4, 
+    "size_name": "half-barrel", 
+    "end_time": "2014-01-31T23:11:42+00:00", 
+    "online": true, 
+    "type": {
+      "name": "Drake's 1500", 
+      "style_id": "0", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/0d8521a4eef37663218db5aef284089e.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90/1c3f0a2375704ebe62a82aec658b5287.jpg", 
+        "time": "2014-01-31T23:10:53+00:00", 
+        "original_url": "/media/pics/20140131231053-e6ce61eda0a841edad856fe2679c8f90.e"
+      }, 
+      "abv": 0.0, 
+      "brewer_id": "3", 
+      "id": "4"
+    }, 
+    "size_id": 0, 
+    "size_volume_ml": 58673.9, 
+    "size": {
+      "volume_ml": 58673.9, 
+      "id": 0, 
+      "name": "half-barrel"
+    }
+  }, 
+  "meta": {
+    "result": "ok"
+  }
+}

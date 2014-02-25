@@ -1,0 +1,68 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Thu, 27 Feb 2014 00:29:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "object": {
+    "ticks": 0, 
+    "user_id": "harry", 
+    "url": "/drinks/614", 
+    "duration": 0, 
+    "volume_ml": 222.0, 
+    "session_id": 65, 
+    "keg": {
+      "volume_ml_remain": 21005.9, 
+      "type_id": "1", 
+      "url": "/kegs/3", 
+      "spilled_ml": 0.0, 
+      "start_time": "2014-01-31T23:11:38+00:00", 
+      "percent_full": 35.80109725107757, 
+      "id": 3, 
+      "size_name": "half-barrel", 
+      "end_time": "2014-01-31T23:11:38+00:00", 
+      "online": true, 
+      "size_id": 0, 
+      "size_volume_ml": 58673.9
+    }, 
+    "session": {
+      "name": "", 
+      "url": "/sessions/2014/2/27/65/", 
+      "start_time": "2014-02-27T00:08:15+00:00", 
+      "volume_ml": 222.0, 
+      "end_time": "2014-02-27T03:08:15+00:00", 
+      "id": 65
+    }, 
+    "user": {
+      "username": "harry", 
+      "url": "/drinkers/harry/", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f/580d339d579ee75ce42f46e4c2334e2f.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f/f72092fa383a61a40f2349d8aee2c075.jpg", 
+        "user_id": "harry", 
+        "time": "2014-01-31T23:10:53+00:00", 
+        "original_url": "/media/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f.e"
+      }, 
+      "is_active": true
+    }, 
+    "time": "2014-02-27T00:08:15+00:00", 
+    "images": [
+      {
+        "url": "/media/CACHE/images/pics/20140131231108-1cf7756d878e42f99f2e2918beb06d32/dcf6beaf3cb512cc6aa638a007988d15.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231108-1cf7756d878e42f99f2e2918beb06d32/38a46c4a8e786bc33de1bbabba514440.jpg", 
+        "user_id": "harry", 
+        "time": "2014-02-27T00:08:15+00:00", 
+        "original_url": "/media/pics/20140131231108-1cf7756d878e42f99f2e2918beb06d32.7"
+      }
+    ], 
+    "keg_id": 3, 
+    "id": 614
+  }, 
+  "meta": {
+    "result": "ok"
+  }
+}

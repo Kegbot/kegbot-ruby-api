@@ -1,0 +1,9 @@
+rvm:
+  - 1.9.3-p194  # Ruby version on Ubuntu
+  - 1.9.3       # Latest in 1.9.3 series
+  - 2.0.0       # Latest in 2.0.0 series
+  - 2.1.1       # Latest
+before_script:
+  - gem install bundler --version "~> 1.5"
+  - bundle install
+script: bundle exec rspec -fd
