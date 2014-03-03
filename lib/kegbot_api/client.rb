@@ -17,11 +17,18 @@ module KegbotApi
     include ClientHelpers
 
     attr_accessor :base_url
+    attr_accessor :api_key
 
     # @param base_url [String] base URL for the REST server (ie: http://demo.kegbot.org/api)
     # @param options [Hash] (currently unused)
+    # @option options [String] +:api_key+ API authentication token
     def initialize(base_url, options = {})
       self.base_url = base_url
+      self.api_key = options[:api_key]
+    end
+
+    def api_key?
+      !!self.api_key
     end
 
     # @!macro [attach] rest_noun

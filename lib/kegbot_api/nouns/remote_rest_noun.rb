@@ -34,7 +34,11 @@ module KegbotApi
         uri = URI(url)
 
         Net::HTTP.start(uri.host, uri.port, :use_ssl => (uri.scheme == 'https')) do |http|
-          http_response = http.request_get uri.request_uri
+
+          headers = {}
+          headers.merge!({ 'X-Kegbot-Api-Key' => self.client.api_key }) if self.client.api_key?
+
+          http_response = http.request_get uri.request_uri, headers
 
           case http_response
             when Net::HTTPRedirection
