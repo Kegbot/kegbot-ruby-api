@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Mon, 03 Mar 2014 23:38:33 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "object": {
+    "username": "gus", 
+    "first_name": "", 
+    "last_name": "", 
+    "url": "/drinkers/gus/", 
+    "image": {
+      "url": "/media/CACHE/images/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc/fd54502eff326e838f3134d97951051c.jpg", 
+      "thumbnail_url": "/media/CACHE/images/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc/3718ef57dbbffe3a1f64cad02ea6609d.jpg", 
+      "user_id": "gus", 
+      "original_url": "/media/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc.e", 
+      "time": "2014-01-31T23:10:52+00:00"
+    }, 
+    "is_active": true, 
+    "is_superuser": true, 
+    "is_staff": true, 
+    "last_login": "2014-02-20T01:27:36+00:00", 
+    "email": "", 
+    "date_joined": "2014-01-31T23:10:52+00:00"
+  }, 
+  "meta": {
+    "result": "ok"
+  }
+}

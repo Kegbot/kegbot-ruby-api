@@ -1,0 +1,18 @@
+HTTP/1.1 401 UNAUTHORIZED
+Server: nginx/1.4.1 (Ubuntu)
+Date: Mon, 03 Mar 2014 23:38:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Cookie
+Cache-Control: max-age=0
+
+{
+  "meta": {
+    "result": "error"
+  }, 
+  "error": {
+    "message": "The parameter \"api_key\" is required", 
+    "code": "NoAuthTokenError"
+  }
+}

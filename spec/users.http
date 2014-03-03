@@ -1,0 +1,92 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Mon, 03 Mar 2014 23:38:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "objects": [
+    {
+      "username": "gus", 
+      "first_name": "", 
+      "last_name": "", 
+      "url": "/drinkers/gus/", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc/fd54502eff326e838f3134d97951051c.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc/3718ef57dbbffe3a1f64cad02ea6609d.jpg", 
+        "user_id": "gus", 
+        "time": "2014-01-31T23:10:52+00:00", 
+        "original_url": "/media/pics/20140131231052-84ace2243a304d3095ff12b85eb14ddc.e"
+      }, 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2014-02-20T01:27:36+00:00", 
+      "email": "", 
+      "date_joined": "2014-01-31T23:10:52+00:00"
+    }, 
+    {
+      "username": "harry", 
+      "first_name": "", 
+      "last_name": "", 
+      "url": "/drinkers/harry/", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f/580d339d579ee75ce42f46e4c2334e2f.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f/f72092fa383a61a40f2349d8aee2c075.jpg", 
+        "user_id": "harry", 
+        "time": "2014-01-31T23:10:53+00:00", 
+        "original_url": "/media/pics/20140131231053-940cdc69ae8a495c960ea8ed893f3c8f.e"
+      }, 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2014-01-31T23:10:52+00:00", 
+      "email": "", 
+      "date_joined": "2014-01-31T23:10:52+00:00"
+    }, 
+    {
+      "username": "t-bone", 
+      "first_name": "", 
+      "last_name": "", 
+      "url": "/drinkers/t-bone/", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231052-d97fcbac796647f28a5489572e4a89cf/a9f3a7405c534bed05e01d561650bb1b.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231052-d97fcbac796647f28a5489572e4a89cf/2ed662fac3b9353f266a3ccf73a30473.jpg", 
+        "user_id": "t-bone", 
+        "time": "2014-01-31T23:10:52+00:00", 
+        "original_url": "/media/pics/20140131231052-d97fcbac796647f28a5489572e4a89cf.e"
+      }, 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2014-01-31T23:10:52+00:00", 
+      "email": "", 
+      "date_joined": "2014-01-31T23:10:52+00:00"
+    }, 
+    {
+      "username": "wusty", 
+      "first_name": "", 
+      "last_name": "", 
+      "url": "/drinkers/wusty/", 
+      "image": {
+        "url": "/media/CACHE/images/pics/20140131231052-954987de73d5473ebf3bd47e56849339/b31c40e7f7d39d175e3102dc1328c23b.jpg", 
+        "thumbnail_url": "/media/CACHE/images/pics/20140131231052-954987de73d5473ebf3bd47e56849339/2a7f5f887d497ca238075564c6037b7f.jpg", 
+        "user_id": "wusty", 
+        "time": "2014-01-31T23:10:52+00:00", 
+        "original_url": "/media/pics/20140131231052-954987de73d5473ebf3bd47e56849339.e"
+      }, 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2014-03-01T19:18:22+00:00", 
+      "email": "", 
+      "date_joined": "2014-01-31T23:10:52+00:00"
+    }
+  ], 
+  "meta": {
+    "result": "ok"
+  }
+}

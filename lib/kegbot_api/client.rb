@@ -6,6 +6,7 @@ require 'kegbot_api/nouns/session'
 require 'kegbot_api/nouns/beverage'
 require 'kegbot_api/nouns/image'
 require 'kegbot_api/nouns/keg_size'
+require 'kegbot_api/nouns/user'
 
 module KegbotApi
   # Represents a connection to a specific Kegbot REST server
@@ -42,5 +43,6 @@ module KegbotApi
     noun Beverage
     noun Image
     noun KegSize
+    noun User
   end
 end
