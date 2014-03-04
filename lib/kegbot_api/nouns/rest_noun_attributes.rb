@@ -107,10 +107,11 @@ module KegbotApi
       # Defines an attribute accessor with the specified name, returning the value of {#attribute} value with key +name+
       def define_accessor(name, *args)
         options = args.slice!(0) || {}
+        attribute_name = options[:attribute_name] || name
         aliases = options[:alias]
 
         define_method(name) do
-          self.attributes[name.to_s]
+          self.attributes[attribute_name.to_s]
         end
         alias_method aliases.to_sym, name.to_sym if aliases
       end
