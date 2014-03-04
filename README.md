@@ -135,6 +135,9 @@ client.User.all
 
 # /users/gus
 client.User.find('gus')
+
+# /stats
+client.Stat.find
 ```
 
 Source is at [`spec/example_2.rb`](spec/example_2.rb)

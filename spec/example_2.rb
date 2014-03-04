@@ -32,3 +32,6 @@ client.User.all
 
 # /users/gus
 client.User.find('gus')
+
+# /stats
+client.Stat.find

@@ -31,6 +31,11 @@ module KegbotApi
         define_accessor name
       end
 
+      # Defines a attribute accessor for name that returns the raw value as stored in the backing {#attributes}
+      def raw(name, *args)
+        define_accessor name, *args
+      end
+
       # Defines a 1-1 relationship between this Noun and another.
       # @overload has_one(name, options = {})
       def has_one(name, *args)

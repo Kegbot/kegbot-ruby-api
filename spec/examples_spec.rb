@@ -33,5 +33,12 @@ describe "Example Use Cases" do
 
       Kernel::eval(ruby, nil, script)
     end
+
+    it "example_3.rb" do
+      script = File.join(File.dirname(__FILE__), "example_3.rb")
+      ruby = File.read(script)
+
+      Kernel::eval(ruby, nil, script)
+    end
   end
 end

@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Server: nginx/1.4.1 (Ubuntu)
+Date: Tue, 04 Mar 2014 00:20:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Vary: Accept-Encoding
+Cache-Control: max-age=0
+
+{
+  "object": {
+    "volume_by_year": {
+      "2014": 151062, 
+      "2013": 41142.0
+    }, 
+    "total_pours": 616, 
+    "greatest_volume_ml": 500.0, 
+    "has_guest_pour": false, 
+    "registered_drinkers": [
+      "gus", 
+      "wusty", 
+      "harry", 
+      "t-bone"
+    ], 
+    "volume_by_day_of_week": {
+      "1": 34176, 
+      "0": 7784, 
+      "3": 45940.0, 
+      "2": 31290, 
+      "5": 23213, 
+      "4": 36749, 
+      "6": 13052
+    }, 
+    "greatest_volume_id": 414, 
+    "volume_by_drinker": {
+      "gus": 46386.0, 
+      "wusty": 54625.0, 
+      "t-bone": 42212.0, 
+      "harry": 48981.0
+    }, 
+    "last_drink_id": 616, 
+    "sessions_count": 66, 
+    "average_volume_ml": 312.0194805194805, 
+    "total_volume_ml": 192204.0
+  }, 
+  "meta": {
+    "result": "ok"
+  }
+}

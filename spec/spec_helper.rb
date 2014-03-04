@@ -41,3 +41,5 @@ FakeWeb.register_uri(:get, "#{TEST_API_BASEURL}/users", :response => File.join(F
 FakeWeb.register_uri(:get, "#{TEST_API_BASEURL}/users/gus", :response => File.join(File.dirname(__FILE__), "users_gus.http"))
 FakeWeb.register_uri(:get, "#{TEST_API_BASEURL}/users/noauth", :response => File.join(File.dirname(__FILE__), "users_noauth.http"))
 
+FakeWeb.register_uri(:get, "#{TEST_API_BASEURL}/stats", :response => File.join(File.dirname(__FILE__), "stats.http"))
+
